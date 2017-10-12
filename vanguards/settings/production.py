@@ -15,6 +15,7 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 # BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 
 EMAIL_HOST = 'smtp.gmail.com'
@@ -34,7 +35,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY','o!uew-zq*&u50p#09e9t_%xb+cr(8$ju_8y&c$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['vanguards.herokuapp.com']
+ALLOWED_HOSTS = ['vanguards.herokuapp.com','dcccvanguards.me']
 
 
 # Application definition
@@ -144,7 +145,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
